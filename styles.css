@@ -1,10 +1,55 @@
 body{
   background-color: rgb(80,216,255);
     font-family: fantasy;
+    letter-spacing: 1.1px;
 }
+
+ul.menu li{
+   display: block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   float: left;
+    border-width: 2px 0 2px 2px;
+    border-style: solid;
+    border-color: rgba(0, 0, 255, 0.5);
+ }
+
+
+ ul.menu {
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 650px;
+  }
+
+      ul.menu a:link, ul.menu a:visited {
+          display: block;
+          width: 95px;
+          padding: 5px 0;
+          background-color: rgb(34, 119, 204);
+            text-decoration: none;
+            color: rgb(221, 238, 255);
+            text-align: center;
+            font-weight: bold;
+              border-top-color: rgb(34, 85, 187);
+              border-top-width: 10px;
+              border-top-style: solid;
+
+               }
+
+               ul.menu a:hover {
+                  background-color: rgb(34, 136, 238);
+                   color: rgb(255, 255, 255);
+                    border-top-style: solid;
+                    border-top-color:rgb(34, 102, 221);
+                    border-top-width: 20px;
+                  }
+
 
   h1{
     margin: auto;
+    margin-top: 100px;
     width: 50%;
       background-color: rgba(202, 255, 0, 0.5);
         text-transform: uppercase;
@@ -27,7 +72,6 @@ body{
             text-align: center;
             font-weight: bold;
             font-size: 120%;
-            letter-spacing: 1.1px;
             word-spacing: 1px;
               overflow: scroll;
     }
@@ -48,43 +92,5 @@ body{
               border-style: double;
               border-radius: 10px;
                 font-weight: bold;
-                letter-spacing: 1.1px;
                 text-align: justify;
         }
-
-
-        ul, ul li {
-	display: block;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-ul {
-	position: absolute;
-}
-
-ul li {
-	float: left;
-	border-width: 0 1px 1px 1px;
-	border-style: solid;
-	border-color: transparent #25b #25b #9ce;
-}
-
-ul a:link, ul a:visited {
-	text-decoration: none;
-	display: block;
-	width: 95px;
-	text-align: center;
-	padding: 5px 0;
-	font-weight: bold;
-	background-color: #27c;
-	color: #def;
-	border-top: 10px solid #25b;
-}
-
-ul a:hover {
-	background-color: #28e;
-	color: #fff;
-	border-top: 20px solid #26d;
-}
