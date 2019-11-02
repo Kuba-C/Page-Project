@@ -1,33 +1,52 @@
 body{
   background-color: rgb(80,216,255);
+    font-family: fantasy;
 }
 
   h1{
     margin: auto;
-    background-color: rgba(202, 255, 0, 0.5);
     width: 50%;
-    text-transform: uppercase;
-    text-align: center;
-    font-style: italic;
-    font-family: fantasy;
+      background-color: rgba(202, 255, 0, 0.5);
+        text-transform: uppercase;
+        text-align: center;
+        font-style: italic;
+
   }
 
     p.one{
-      background-color: rgba(202, 255, 0, 0.5);
-      border-width: 20px;
-      border-color: rgba(0, 0, 255, 0.5);
-      border-style: double;
-      border-radius: 10px;
       padding:50px;
       margin: auto;
       margin-top: 30px;
       height: 100px;
       width: 200px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 120%;
-      font-family: fantasy;
-      letter-spacing: 1.1px;
-      word-spacing: 1px;
-      overflow: scroll;
+        background-color: rgba(202, 255, 0, 0.5);
+          border-width: 20px;
+          border-color: rgba(0, 0, 255, 0.5);
+          border-style: double;
+          border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 120%;
+            letter-spacing: 1.1px;
+            word-spacing: 1px;
+              overflow: scroll;
     }
+
+
+      ol{
+        list-style-type: circle;
+      }
+
+        div.list{
+          margin: auto;
+          height: 100px;
+          width: 100px;
+          margin-top: 30px;
+            background-color: rgba(202, 255, 0, 0.5);
+              border-width: 20px;
+              border-color: rgba(0, 0, 255, 0.5);
+              border-style: double;
+              border-radius: 10px;
+                font-weight: bold;
+                letter-spacing: 1.1px;
+        }
