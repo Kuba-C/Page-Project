@@ -1,55 +1,13 @@
 body{
-  background-color: rgb(80,216,255);
+  background-color: rgb(0,191,255);
     font-family: fantasy;
     letter-spacing: 1.1px;
 }
 
-ul.menu li{
-   display: block;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   float: left;
-    border-width: 2px 0 2px 2px;
-    border-style: solid;
-    border-color: rgba(0, 0, 255, 0.5);
- }
-
-
- ul.menu {
-    position: absolute;
-    margin-top: 0px;
-    margin-bottom: 50px;
-    margin-left: 650px;
-  }
-
-      ul.menu a:link, ul.menu a:visited {
-          display: block;
-          width: 95px;
-          padding: 5px 0;
-          background-color: rgb(34, 119, 204);
-            text-decoration: none;
-            color: rgb(221, 238, 255);
-            text-align: center;
-            font-weight: bold;
-              border-top-color: rgb(34, 85, 187);
-              border-top-width: 10px;
-              border-top-style: solid;
-
-               }
-
-               ul.menu a:hover {
-                  background-color: rgb(34, 136, 238);
-                   color: rgb(255, 255, 255);
-                    border-top-style: solid;
-                    border-top-color:rgb(34, 102, 221);
-                    border-top-width: 20px;
-                  }
-
-
   h1{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0;
+    margin-bottom: 5px;
     width: 50%;
       background-color: rgba(202, 255, 0, 0.5);
         text-transform: uppercase;
@@ -58,13 +16,81 @@ ul.menu li{
 
   }
 
+  ul.menu li{
+     display: block;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     float: left;
+      border-width: 2px 0 2px 2px;
+      border-style: solid;
+      border-color: rgba(0, 0, 255, 0.5);
+   }
+
+
+   ul.menu {
+      position: absolute;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      margin-left: 650px;
+    }
+
+        ul.menu a:link, ul.menu a:visited {
+            display: block;
+            width: 95px;
+            padding: 5px 0;
+            background-color: rgb(34, 119, 204);
+              text-decoration: none;
+              color: rgb(221, 238, 255);
+              text-align: center;
+              font-weight: bold;
+                border-top-color: rgb(34, 85, 187);
+                border-top-width: 10px;
+                border-top-style: solid;
+
+                 }
+
+                 ul.menu a:hover {
+                    background-color: rgb(34, 136, 238);
+                     color: rgb(255, 255, 255);
+                      border-top-style: solid;
+                      border-top-color:rgb(34, 102, 221);
+                      border-top-width: 20px;
+                    }
+
+                    fieldset{
+                      width: 100px;
+                      float: right;
+                      background-color: rgba(202, 255, 0, 0.5);
+                        border-width: 20px;
+                        border-color: rgba(0, 0, 255, 0.5);
+                        border-style: double;
+                        border-radius: 10px;
+                    }
+
+                      legend{
+                        border-width: 10px;
+                        border-color: rgba(0, 0, 255, 0.5);
+                        border-style: solid;
+                        border-radius: 10px;
+
+                      }
+
+                      input.login{
+                        margin-left: 55px;
+                        margin-top: 5px;
+                          background-color: rgb(34, 119, 204);
+                          border-color: rgb(34, 119, 204);
+                          color: rgb(255, 255, 255);
+                      }
+
     p.one{
       padding:50px;
       margin: auto;
-      margin-top: 30px;
+      margin-top: 200px;
       height: 100px;
       width: 200px;
-        background-color: rgba(202, 255, 0, 0.5);
+      background-color: rgba(202, 255, 0, 0.5);
           border-width: 20px;
           border-color: rgba(0, 0, 255, 0.5);
           border-style: double;
