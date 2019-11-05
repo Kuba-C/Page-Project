@@ -1,6 +1,7 @@
 body{
   /*background-color: rgb(0,191,255);*/
-  background-image: url("bg3.jpg");
+  background-image: url("bg.jpg");
+  /*background-attachment: scroll;*/
     font-family: fantasy;
     letter-spacing: 1.1px;
 }
